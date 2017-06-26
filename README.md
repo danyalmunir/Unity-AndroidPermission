@@ -1,6 +1,6 @@
 # UnityAndroidPermission
 
-====
+-------------------------------
 
 a wrapper of methods for android runtime permission for Unity
 
@@ -15,7 +15,7 @@ AndroidPermissionManager.IsRuntimePermissionDevice()
 - Method for checking if your device need android's runtime permissions
 
 
-====
+-------------------------------
 
 	
 ```
@@ -26,7 +26,7 @@ AndroidPermissionManager.RequestPermissions(IEnumerable<AndroidPermission> permi
 - https://developer.android.com/reference/android/support/v4/app/ActivityCompat.html#requestPermissions(android.app.Activity, java.lang.String[], int)
 
 
-====
+-------------------------------
 
 ```
 AndroidPermissionManager.CheckSelfPermission(AndroidPermission permission)
@@ -36,7 +36,7 @@ AndroidPermissionManager.CheckSelfPermission(AndroidPermission permission)
 - This method is equal to checkSelfPermission() in android java
 - https://developer.android.com/reference/android/support/v4/content/ContextCompat.html#checkSelfPermission(android.content.Context, java.lang.String)
 
-====
+-------------------------------
 
 ```
 AndroidPermissionManager.ShouldShowRequestPermissionRationale(AndroidPermission permission)
@@ -45,7 +45,7 @@ AndroidPermissionManager.ShouldShowRequestPermissionRationale(AndroidPermission 
 - This method is equal to shouldShowRequestPermissionRationale() in android java
 - https://developer.android.com/reference/android/support/v4/app/ActivityCompat.html#shouldShowRequestPermissionRationale(android.app.Activity, java.lang.String)
 
-====
+-------------------------------
 
 ```
 AndroidPermission.XXX
