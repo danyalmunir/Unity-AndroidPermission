@@ -1,11 +1,15 @@
 # UnityAndroidPermission
 
-
 a wrapper of methods for android runtime permission for Unity
 
 ## Install
-use AndroidPermission.unitypackage
+Use AndroidPermission.unitypackage
 
+Before you use this, you must install
+ - AndroidSDK(ver25 or more)
+ - AndroidBuildTools(ver25.03 or more)
+
+You can know how to setup these tools at https://docs.unity3d.com/Manual/android-sdksetup.html
 ## Usage
 ```
 AndroidPermissionManager.IsRuntimePermissionDevice()
